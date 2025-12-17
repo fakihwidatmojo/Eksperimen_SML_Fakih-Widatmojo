@@ -34,4 +34,4 @@ jobs:
     # 5. Verify Output (Optional but recommended)
     - name: Check if processed data exists
       run: |
-        ls -l data/
+        ls -l preprocessing/online-sales-dataset_preprocessing.csv
